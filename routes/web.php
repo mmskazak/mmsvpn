@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TelegramController;
 use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,5 +21,5 @@ Route::get('/', function () {
 
 Route::get('/test', [TestController::class, 'test']);
 
-Route::post('/webhook', 'TelegramController@webhook');
+Route::post('/webhook', [TelegramController::class, 'webhook'];
 
