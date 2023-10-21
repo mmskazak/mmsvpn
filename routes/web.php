@@ -21,5 +21,5 @@ Route::get('/', function () {
 
 Route::get('/test', [TestController::class, 'test']);
 
-Route::post('/webhook', [TelegramController::class, 'webhook'];
+Route::post('/webhook', [TelegramController::class, 'webhook']);
 
