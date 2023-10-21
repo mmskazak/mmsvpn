@@ -12,13 +12,18 @@ class TelegramController extends Controller
     {
         $update = Telegram::commandsHandler(true);
 
-        $keyboard = Keyboard::make()
-            ->buttons([
-                Keyboard::button(['text' => 'Профиль']),
-                Keyboard::button(['text' => 'Купить ВПН']),
-                Keyboard::button(['text' => 'Информация']),
-            ])
-            ->oneTime(); //
+        $keyboard = [
+            ['7', '8', '9'],
+            ['4', '5', '6'],
+            ['1', '2', '3'],
+            ['0']
+        ];
+
+        $reply_markup = Telegram::replyKeyboardMarkup([
+            'keyboard' => $keyboard,
+            'resize_keyboard' => true,
+            'one_time_keyboard' => true
+        ]);
 
         // Получение входящего сообщения
         $message = $update->getMessage();
@@ -33,14 +38,14 @@ class TelegramController extends Controller
                 Telegram::sendMessage([
                     'chat_id' => $message->getChat()->getId(),
                     'text' => 'Привет! Я ваш Telegram бот.',
-                    'reply_markup' => $keyboard, // Прикрепите клавиатуру к сообщению
+                    'reply_markup' => $reply_markup, // Прикрепите клавиатуру к сообщению
                 ]);
             } else {
                 // Если получен другой текст, отправляем общий ответ
                 Telegram::sendMessage([
                     'chat_id' => $message->getChat()->getId(),
                     'text' => 'Спасибо за ваше сообщение: ' . $text,
-                    'reply_markup' => $keyboard, // Прикрепите клавиатуру к сообщению
+                    'reply_markup' => $reply_markup, // Прикрепите клавиатуру к сообщению
                 ]);
             }
         }
