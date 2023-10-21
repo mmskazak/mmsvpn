@@ -19,3 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/test', [TestController::class, 'test']);
+
+Route::post('/webhook', 'TelegramController@webhook');
+

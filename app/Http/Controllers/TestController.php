@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Telegram\Bot\Laravel\Facades\Telegram;
 
 class TestController extends Controller
 {
     public function test() {
-        dd(1);
+        $response = Telegram::bot('mybot')->getMe();
+        dd($response);
     }
 }
