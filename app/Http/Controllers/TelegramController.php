@@ -15,7 +15,7 @@ class TelegramController extends Controller
 
         $keyboard = [
             ['Профиль', 'Купить VPN'],
-            ['Информация']
+            ['Информация'],
         ];
 
         $reply_markup = Keyboard::make([
