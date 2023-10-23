@@ -18,11 +18,12 @@ class TelegramController extends Controller
             ['Информация'],
         ];
 
+
         $reply_markup = Keyboard::make([
             'keyboard' => $keyboard,
-            'resize_keyboard' => true,
-            'one_time_keyboard' => true
+            'inline_keyboard' => true,
         ]);
+
 
         // Получение входящего сообщения
         $message = $update->getMessage();
@@ -51,4 +52,5 @@ class TelegramController extends Controller
 
         return 'ok';
     }
+
 }
