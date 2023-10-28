@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T10:00:38.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="aupqjT3weTe2jQFEb_ws" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-28T10:44:16.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LPwtf4ePi8P5R9bM1CWr" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="lluNUwB5F5Gs3y7PKJDF">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oWh2K4CV3fr-__WwhOW4-2" value="Нажата &lt;br&gt;кнопка Старт" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="60" width="120" height="90" as="geometry" />
+          <mxGeometry x="90" y="70" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oWh2K4CV3fr-__WwhOW4-3" value="Выведено приветственное сообщение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="60" width="120" height="90" as="geometry" />
+          <mxGeometry x="294" y="70" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oWh2K4CV3fr-__WwhOW4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-4" target="oWh2K4CV3fr-__WwhOW4-6">
           <mxGeometry relative="1" as="geometry" />
@@ -25,11 +25,98 @@
         <mxCell id="oWh2K4CV3fr-__WwhOW4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="oWh2K4CV3fr-__WwhOW4-9" target="oWh2K4CV3fr-__WwhOW4-10" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oWh2K4CV3fr-__WwhOW4-9" value="Нажата кнопка профиль" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="400" width="120" height="90" as="geometry" />
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-9" value="Нажата кнопка&amp;nbsp;&lt;br&gt;Информация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oWh2K4CV3fr-__WwhOW4-10" value="Выведена общая информация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="400" width="120" height="90" as="geometry" />
+          <mxGeometry x="294" y="410" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="oWh2K4CV3fr-__WwhOW4-13" target="oWh2K4CV3fr-__WwhOW4-14" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-13" value="Нажата кнопка&amp;nbsp;&lt;br&gt;Купить VPN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-14" target="oWh2K4CV3fr-__WwhOW4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-14" target="oWh2K4CV3fr-__WwhOW4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-14" target="oWh2K4CV3fr-__WwhOW4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-14" target="oWh2K4CV3fr-__WwhOW4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-14" value="Выведено меню на выбор оплаты ВПН" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="580" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-15" target="oWh2K4CV3fr-__WwhOW4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-15" value="Оплата на 1 месяц" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-16" value="Оплата на 3 месяца" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-17" value="Оплата на 6 месяцев" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="760" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-18" value="Оплата на 1 год" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="760" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-24" target="oWh2K4CV3fr-__WwhOW4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-24" value="Выведено сообщение подтверждения платежа" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-26" target="oWh2K4CV3fr-__WwhOW4-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-26" value="Выведено сообщение со способобами платежа" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1079" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-28" target="oWh2K4CV3fr-__WwhOW4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-28" target="oWh2K4CV3fr-__WwhOW4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-28" value="Переход на страницу оплаты" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1240" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-30" target="oWh2K4CV3fr-__WwhOW4-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-30" value="успешная оплата" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1400" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-32" target="oWh2K4CV3fr-__WwhOW4-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-32" value="не успешная оплата" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1400" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-34" target="oWh2K4CV3fr-__WwhOW4-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-34" value="выведено сообщение о успешной оплате в строенном web app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1560" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWh2K4CV3fr-__WwhOW4-35" target="oWh2K4CV3fr-__WwhOW4-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-35" value="выведено сообщение о не успешной оплате в строенном web app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1560" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-38" value="выведено сообщение о успешной оплате в строенном web app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1720" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-39" value="выведено сообщение о успешной оплате в строенном web app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1720" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
