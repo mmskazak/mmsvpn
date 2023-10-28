@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T11:06:03.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JxeeBnqpcmKgtlYhivL8" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-28T11:19:02.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ERCgZK7D3Je-7tj02025" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="lluNUwB5F5Gs3y7PKJDF">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,12 @@
         </mxCell>
         <mxCell id="oWh2K4CV3fr-__WwhOW4-39" value="выведено сообщение&amp;nbsp; втелеграмм боте что оплата не прошла" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="1720" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-42" value="Может быть баланс заменить тарифом с датами от и до, например тариф лайт на месяц, тариф медиум, на 3 месяца, тариф топ на 6 месяцев и тариф фулл на 1 год, при плате тарифом, при действующем тарифе, подписка суммируется продляется" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1870" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oWh2K4CV3fr-__WwhOW4-43" value="Получается необходимо будет хранить всю историю платежей, по каждому клиенту, для безопасности" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1940" width="690" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
